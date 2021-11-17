@@ -1,0 +1,58 @@
+body {
+    margin: 0;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    box-shadow: 0 0 15px 5px rgb(0 1 1 / 20%);
+    padding: 0;
+    margin: 0 auto;
+}
+
+.header {
+    position: sticky;
+    display: inline-flex;
+    width: 100%;
+    top: 0;
+    min-height: 10vh;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav {
+    height: 100%;
+    width: 100%;
+    background-color: rgb(26, 26, 26);
+    min-height: 10vh;
+}
+
+.ulNav {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: space-between;
+    padding: 0;
+    margin: 2vh 5vw;
+    align-items: center;
+}
+
+.headerLogo img {
+max-height: 7vh;
+}
+
+a {
+    color: white;
+}
+
+.main {
+    display: flex;
+    height: 90vh;
+    background: url(../img/apartmentsBlured.png) no-repeat;
+    background-size: cover;
+    background-position: top 0px center;
+}
+
+.footer {
+    height: 10vh;
+}
